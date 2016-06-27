@@ -1,0 +1,44 @@
+.padrao {
+  /* Posicionamento */
+
+  /* Display e Box Model */  
+
+  /* Cores */
+
+  /* Texto */
+
+  /* Outros */
+  }
+
+body {
+	min-height: 100vh; /*viewport hight (altura da tela em %)*/
+	min-width: 100vw;
+
+	background-color: #CCC;
+	background-image: url('https://unsplash.it/g/1500/800?random&gravity=center');
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+/*------------------
+	LOGIN - FORM     
+/*------------------*/
+.login-form {
+	margin-top: 50vh;
+
+	padding: 20px 30px;
+	transform: translateY(-50%); /*elemento fica 50% abaxio da sua posição original	*/
+
+	background-color: #000;
+	opacity: 0.9;
+	color:#FFF;
+}
+
+.login-form h1 {
+	margin: 0 0 5px;
+}
+
+.login-form h2 {
+	margin: 0 0 30px;
+	font-size: 1em;
+}
